@@ -1,0 +1,26 @@
+<head>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<script type="text/javascript" charset="utf8" src="/js/js.js"></script>
+<script type="text/javascript" charset="utf8" src="/js/RowEditor.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css">
+        
+</head>
+<body>
+<table id="table">
+    <thead>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Salary</th>
+    <th>Position</th>
+    <th>Action</th>
+    </thead>
+    <tbody>
+    <tr><td>1</td><td>Judy Garland</td><td>67000€</td><td>Sales Assistant</td><td><button onclick="rowEditor.editRow(1)">Edit</button></td></tr>
+    <tr><td>2</td><td>Tom Holton</td><td>77000€</td><td>Tech Lead</td><td><button onclick="rowEditor.editRow(2)">Edit</button></td></tr>
+    <tr><td>3</td><td>John Tang</td><td>43000€</td><td>Secretary</td><td><button onclick="rowEditor.editRow(3)">Edit</button></td></tr>
+    <tr><td>4</td><td>Fernanda Gonzales</td><td>59000€</td><td>Developer</td><td><button onclick="rowEditor.editRow(4)">Edit</button></td></tr>
+    </tbody>
+</table>
+</body>
