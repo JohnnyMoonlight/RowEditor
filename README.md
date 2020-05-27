@@ -31,6 +31,10 @@ editRowSettings  = {
   });
   ```
 
+  4. Call the editRow-function
+Finally call the edit row function. You can place it in the table as button or in any way you like it.
+  `<button onclick="rowEditor.editRow(1)">Edit</button>`
+
 ## Config
 
 The config requires a json object, which explicitely defines the rows, that are editable (all mentioned rows).
