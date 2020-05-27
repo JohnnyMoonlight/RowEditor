@@ -39,3 +39,4 @@ Finally call the edit row function. You can place it in the table as button or i
 
 The config requires a json object, which explicitely defines the rows, that are editable (all mentioned rows).
 Further it must be defined if we want to manipulate the row through `<input>` or `<select>` modalities.
+The input-style is pretty straigt forward, take a look at the example above. For a select-type, give a "value" that will be set in the table; the "title" is what is shown in the dropdown.
