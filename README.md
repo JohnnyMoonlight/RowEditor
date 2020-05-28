@@ -3,6 +3,10 @@ This repo contains a row editor for rows within a DataTable.
 
 ![alt text](https://github.com/JohnnyMoonlight/RowEditor/blob/master/img/screenshot.png)
 
+## Usage
+
+After setting up the plug in (see 'How To' below), add a button for each column calling the edit functionality. Press 'escape' to cancel, press 'enter' to confirm.
+
 ## How To
 
 1. Integrate the RowEditor.js-file `<script type="text/javascript" charset="utf8" src="/js/RowEditor.js"></script>`
