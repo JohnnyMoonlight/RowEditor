@@ -1,11 +1,11 @@
 class RowEditor {
 
     constructor(tableId, dt, config) {
-    this.table = tableId;
-    this.dataTable = dt;
-    this.editRowSettings = config;
-    this.rowInEditMode = null;
-    this.originalRowValues = null;
+        this.table = tableId;
+        this.dataTable = dt;
+        this.editRowSettings = config;
+        this.rowInEditMode = null;
+        this.originalRowValues = null;
     }
 
     deleteRow(indexOfCallingRow) {
